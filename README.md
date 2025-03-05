@@ -6,10 +6,12 @@ source .venv/bin/activate  # Mac/Linux
 pip install -r requirements.txt```
 
 ### inside the requirement.txt place this code
-```fastapi
+```
+fastapi
 uvicorn
 torch
 diffusers
 onnxruntime
 ollama
-transformers```
+transformers
+```
